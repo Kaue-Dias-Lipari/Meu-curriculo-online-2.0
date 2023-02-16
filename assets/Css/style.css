@@ -975,6 +975,9 @@ nav ul li a:hover {
 
 
 @media (max-width: 800px) {
+    .cursor {
+        display: none;
+    }
 
     #about .about-card {
         display: flex;
@@ -1087,6 +1090,12 @@ nav ul li a:hover {
 
     #contact {
         margin-top: 700px;
+        margin-bottom: 100px;
+    }
+
+    .contact-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .btn-contact {
