@@ -1046,7 +1046,7 @@ nav ul li a:hover {
     }
 
     #projects {
-        margin-top: 550px;
+        margin-top: 500px;
     }
 
     .titulo-project {
@@ -1103,3 +1103,15 @@ nav ul li a:hover {
         flex-direction: column;
     }
 }
+
+@media (max-width: 680px) {
+
+    #projects {
+        margin-top: 700px;
+    }
+
+    #contact {
+        margin-top: 900px;
+        height: 120vh;
+    }
+} 
